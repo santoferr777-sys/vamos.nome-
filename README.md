@@ -29,7 +29,7 @@ body {
   text-align: center;
   padding: 20px;
   background-color: #f7f7f7;
-}
+  }
 textarea {
   width: 80%;
   margin-top: 10px;
@@ -41,7 +41,7 @@ button {
   font-size: 1em;
 }
 let currentTurn = 0;
-const maxTurns = 3;
+const maxTurns = 4;
 let sentenceParts = [];
 
 const input = document.getElementById("inputText");
@@ -52,9 +52,10 @@ const resultDiv = document.getElementById("result");
 const finalPhrase = document.getElementById("finalPhrase");
 
 const turnInstructions = [
-  "Scrivi il SOGGETTO (es. 'Il cane')",
-  "Scrivi il VERBO (es. 'mangia')",
-  "Scrivi il COMPLEMENTO (es. 'una mela gigante')"
+  "Chi? (es. 'Il cane')",
+  "Cosa fai? (es. 'mangia')",
+  "Dove? (es. 'in bagno')"
+  "Quando? (es. 'di notte alle 10)"
 ];
 
 instructions.textContent = turnInstructions[currentTurn];
