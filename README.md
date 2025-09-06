@@ -1,7 +1,7 @@
 # vamos.nome-
-index.html
-style.css
-script.js
+/index.html
+/style.css
+/script.js
 <!DOCTYPE html>
 <html lang="it">
 <head>
