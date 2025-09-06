@@ -6,11 +6,11 @@
 <html lang="it">
 <head>
   <meta charset="UTF-8">
-  <title>Cadavere Squisito Online</title>
+  <title>vamos col nome</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Cadavere Squisito Online</h1>
+  <h1>vamos col nome</h1>
   <div id="game">
     <p id="instructions">Scrivi la tua parte della frase:</p>
     <textarea id="inputText" placeholder="Scrivi qui..." rows="3"></textarea>
